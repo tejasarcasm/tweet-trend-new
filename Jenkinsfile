@@ -92,7 +92,7 @@ environment {
        steps {
          script {
             echo '<--------------- Helm Deploy Started --------------->'
-            sh 'helm install ttrend03 ttrend-0.1.1.tgz'
+            sh 'helm upgrade ttrend02 ttrend-0.1.1.tgz'
             echo '<--------------- Helm deploy Endss --------------->'
          }
        }
